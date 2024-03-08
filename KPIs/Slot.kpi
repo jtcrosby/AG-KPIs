@@ -1,0 +1,65 @@
+{
+	"Category": "Warehouse",
+	"Description": "Slot Data",
+	"IsEnabled": true,
+	"IsAlertable": false,
+	"Name": "Slot",
+	"SQLStatement": "execute [dbo].[usp_Pulse_Slot_Attributes]",
+	"CanBePivoted": false,
+	"UseAdvanceQueryEditorOnly": false,
+	"RefreshIntervalInSecond": 0,
+	"Product": "WarehouseAdvantage",
+	"DefaultEditorLanguageCode": "sql",
+	"SelectedEnvironment": {
+		"Name": "PulseEnvironment",
+		"BaseUrl": "http://o-w19kiwidev-2.agbr.com:30000",
+		"Tenant": "Associated Grocers"
+	},
+	"GridSeriesInfo": {
+		"Name": "Slots",
+		"BIKPIGridColumnDeves": [
+			{
+				"DataColumnName": "capacity_volume",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 5,
+				"DisplayText": "Volume",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "capacity_uom",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 4,
+				"DisplayText": "UOM",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "status",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 3,
+				"DisplayText": "Status",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "description",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 2,
+				"DisplayText": "Description",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "location_id",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 1,
+				"DisplayText": "Location",
+				"ColumnMaxValue": ""
+			}
+		],
+		"Type": "SqlQuery",
+		"DrillDownQuery": ""
+	}
+}

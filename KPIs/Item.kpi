@@ -1,0 +1,65 @@
+{
+	"Category": "Warehouse",
+	"Description": "Item Data",
+	"IsEnabled": true,
+	"IsAlertable": false,
+	"Name": "Item",
+	"SQLStatement": "execute [dbo].[usp_Pulse_Item_Attributes]",
+	"CanBePivoted": false,
+	"UseAdvanceQueryEditorOnly": false,
+	"RefreshIntervalInSecond": 0,
+	"Product": "WarehouseAdvantage",
+	"DefaultEditorLanguageCode": "sql",
+	"GridSeriesInfo": {
+		"Name": "Item Data",
+		"BIKPIGridColumnDeves": [
+			{
+				"DataColumnName": "inv_class",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 5,
+				"DisplayText": "InvClass",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "inventory_type",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 4,
+				"DisplayText": "InventoryType",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "uom",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 3,
+				"DisplayText": "UOM",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "description",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 2,
+				"DisplayText": "Description",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "item_number",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 1,
+				"DisplayText": "ItemNumber",
+				"ColumnMaxValue": ""
+			}
+		],
+		"Type": "SqlQuery",
+		"DrillDownQuery": ""
+	},
+	"SelectedEnvironment": {
+		"Name": "",
+		"BaseUrl": "",
+		"Tenant": ""
+	}
+}

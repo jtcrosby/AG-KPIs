@@ -1,0 +1,73 @@
+{
+	"Category": "Warehouse",
+	"Description": "Pallet Data",
+	"IsEnabled": true,
+	"IsAlertable": false,
+	"Name": "Pallet",
+	"SQLStatement": "execute [dbo].[usp_Pulse_Pallet_Attributes]",
+	"CanBePivoted": false,
+	"UseAdvanceQueryEditorOnly": false,
+	"RefreshIntervalInSecond": 0,
+	"Product": "WarehouseAdvantage",
+	"DefaultEditorLanguageCode": "sql",
+	"SelectedEnvironment": {
+		"Name": "PulseEnvironment",
+		"BaseUrl": "http://o-w19kiwidev-2.agbr.com:30000",
+		"Tenant": "Associated Grocers"
+	},
+	"GridSeriesInfo": {
+		"Name": "Pallets",
+		"BIKPIGridColumnDeves": [
+			{
+				"DataColumnName": "last_moved_date",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 6,
+				"DisplayText": "LastMoved",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "fifo_date",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 5,
+				"DisplayText": "FIFO",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "status",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 4,
+				"DisplayText": "Status",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "location_id",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 3,
+				"DisplayText": "Location",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "type",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 2,
+				"DisplayText": "Type",
+				"ColumnMaxValue": ""
+			},
+			{
+				"DataColumnName": "hu_id",
+				"DataFormat": "0",
+				"DataType": "String",
+				"DisplayOrder": 1,
+				"DisplayText": "Id",
+				"ColumnMaxValue": ""
+			}
+		],
+		"Type": "SqlQuery",
+		"DrillDownQuery": ""
+	}
+}
